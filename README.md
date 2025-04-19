@@ -1,50 +1,104 @@
-<h1 align="center">🌟 Hi, I'm YUE (9el10) 🌟</h1>
-<p align="center">🚀 Hardware Hacker | 🎛️ MIDI Fader Nerd | 🧪 Tinkerer of Signals</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YUE's Playground</title>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      font-family: 'Fira Code', monospace;
+      box-sizing: border-box;
+    }
+    body {
+      background: linear-gradient(135deg, #0f0f0f, #1e1e1e);
+      color: #eee;
+      padding: 2rem;
+    }
+    .center {
+      text-align: center;
+      margin-bottom: 3rem;
+    }
+    h1 {
+      font-size: 2.8rem;
+      color: #66ff99;
+      margin-bottom: 0.5rem;
+    }
+    .typing {
+      font-size: 1.4rem;
+      color: #00ffcc;
+      white-space: nowrap;
+      overflow: hidden;
+      border-right: 3px solid;
+      width: 0;
+      animation: typing 4s steps(40, end) forwards, blink 1s step-end infinite;
+    }
+    @keyframes typing {
+      from { width: 0 }
+      to { width: 100% }
+    }
+    @keyframes blink {
+      50% { border-color: transparent }
+    }
+    .card {
+      background: #1f1f1f;
+      border-radius: 16px;
+      padding: 1.5rem;
+      margin: 1rem auto;
+      max-width: 600px;
+      box-shadow: 0 0 16px #00ffcc55;
+    }
+    .card h2 {
+      color: #ffdd57;
+      margin-bottom: 0.5rem;
+    }
+    .card p {
+      font-size: 1rem;
+      line-height: 1.6;
+    }
+    footer {
+      text-align: center;
+      font-size: 0.9rem;
+      margin-top: 4rem;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+  <div class="center">
+    <h1>Hi, I'm YUE 👋</h1>
+    <div class="typing">I build motorized MIDI faders, Arduino projects & more!</div>
+  </div>
 
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&size=25&pause=1000&center=true&vCenter=true&width=435&lines=I+build+motorized+MIDI+faders;I+love+DIY+electronics;I+hack+code+%2B+hardware!" alt="Typing SVG" />
-</p>
+  <div class="card">
+    <h2>🎛 Current Projects</h2>
+    <p>
+      Building a motorized fader system using Arduino Uno + Leonardo, with PID control and MIDI integration.<br>
+      Reverse engineering GrandMA2 SysEx messages into usable MIDI CC signals.<br>
+      Designing smooth touch-sensitive automation hardware.
+    </p>
+  </div>
 
----
+  <div class="card">
+    <h2>🧰 Tools I Use</h2>
+    <p>
+      Arduino • Python • CapacitiveSensor • Control-Surface • KiCad • MIDI-OX • loopMIDI • nRF52840
+    </p>
+  </div>
 
-### 🛠 Projects I Tinker With
-- 🎚️ [Motorized MIDI Fader with Arduino Uno & Leonardo](https://github.com/9el10/Control-Surface-Motor-Fader)
-- 🎛️ [GrandMA2 MIDI SysEx Parser](https://github.com/9el10/midi-sysex-converter)
-- 🧠 Realtime PID Control with OLED Feedback
-- 🔌 Capacitive Touch Detection using Mega Resistors 😏
+  <div class="card">
+    <h2>🌈 Fun Facts</h2>
+    <p>
+      🧪 Sometimes 10MΩ makes the difference between magic and noise.<br>
+      🎧 I believe motorized faders should glide like butter.<br>
+      🔌 My faders know when you touch them—literally.
+    </p>
+  </div>
 
----
-
-### 📊 My GitHub Stats
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=9el10&show_icons=true&theme=tokyonight" height="150">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=9el10&theme=tokyonight" height="150">
-</p>
-
----
-
-### 🎒 My Tech Toolbox
-<p align="center">
-  <img src="https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white"/>
-  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
-  <img src="https://img.shields.io/badge/MIDI-black?style=for-the-badge&logo=midjourney&logoColor=white"/>
-  <img src="https://img.shields.io/badge/KiCad-314CB6?style=for-the-badge&logo=kicad&logoColor=white"/>
-</p>
-
----
-
-### 🧙 Fun Corner
-> 🎵 MIDI + 电机 = 魔法   
-> 🧪 喜欢捣鼓触摸检测？加 10M 电阻试试看！  
-> 🐍 用 Python 让灯光动起来  
-> 🚧 永远在测试，永远不完美
-
----
-
-### 📫 Let's Connect
-<p align="center">
-  <a href="mailto:youremail@example.com"><img src="https://img.shields.io/badge/email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-</p>
-
-<p align="center"><em>“Stay curious. Stay geeky.”</em></p>
+  <footer>
+    Built with 🧡 by YUE (9el10) | Hosted on GitHub Pages
+  </footer>
+</body>
+</html>
